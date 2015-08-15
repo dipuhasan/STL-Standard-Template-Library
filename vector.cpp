@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-
 int main ()
 {
   std::vector<int> myVec;
@@ -12,9 +11,7 @@ int main ()
   }
 
   for (int i=1; i<=5; i++) {
-
     myVec.push_back(i);
-
   }
 
   cout<<"Size of my vector is "<<myVec.size()<<endl;
@@ -31,8 +28,6 @@ int main ()
   std::cout << "My Vector contains:";
   for (std::vector <int>::iterator it = myVec.begin() ; it != myVec.end(); ++it)
     std::cout << ' ' << *it;
-
-
   std::cout << '\n';
 
   //vector at

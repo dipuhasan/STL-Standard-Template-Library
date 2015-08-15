@@ -10,7 +10,8 @@ int main ()
   std::pair<std::set<int>::iterator,bool> ret;
 
   // set some initial values:
-  for (int i=1; i<=10; ++i) mySet.insert(i*20);
+  for (int i=1; i<=10; ++i) 
+      mySet.insert(i*20);
 
   ret = mySet.insert(60);
 
